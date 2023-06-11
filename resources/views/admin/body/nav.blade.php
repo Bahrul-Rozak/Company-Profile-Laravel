@@ -10,6 +10,8 @@
         <li class="nav-item d-none d-sm-inline-block">
             <a href="#" class="nav-link">Contact</a>
         </li>
+        <button type="button" class="btn btn-block btn-danger"><a
+                href="{{ route('admin.logout') }}">Logout</a></button>
     </ul>
 
     <!-- Right navbar links -->
